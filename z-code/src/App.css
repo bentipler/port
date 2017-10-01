@@ -7,15 +7,25 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: auto;
   padding: 20px;
   color: white; }
+  .App-header h1 {
+    font-size: 4em; }
+    .App-header h1 span {
+      font-weight: normal;
+      color: #c4c7c9; }
 
 .App-title {
   font-size: 1.5em; }
 
 .App-intro {
-  font-size: large; }
+  font-size: 3em; }
+  .App-intro span {
+    color: #990000;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: Georgia; }
 
 @keyframes App-logo-spin {
   from {
